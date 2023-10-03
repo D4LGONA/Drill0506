@@ -30,7 +30,6 @@ def reset_world():
     cx, cy = TUK_WIDTH // 2, TUK_HEIGHT // 2
     frame = 0
     action = 3
-
     points = []
     set_new_target_arrow()
 
@@ -82,7 +81,6 @@ while running:
     render_world() # 월드의 현재 내용을 그린다
     handle_events() # 사용자 입력을 받아들인다
     update_world() # 월드 안의 객체들의 상호작용을 계산하고 그 결과를 업데이트한다.
-
 
 close_canvas()
 
